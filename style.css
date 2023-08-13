@@ -1,0 +1,80 @@
+h1 {
+    font-family: 'Inter', sans-serif;
+    line-height: 56px; /*altura da linha*/
+    font-size: 49px; /*tamanho da fonte*/ 
+    text-shadow: 0px 4px 4px rgba(110,110,110,0.35);
+    font-weight: normal;
+
+    /* Botton é a margem de baixo do elemento*/
+    /*TOP= 0, Right= auto, Botton inf=72*/
+    margin-bottom: 72px;
+}
+
+h1>span {
+    font-weight:bold;
+}
+
+/* span geral dos textos */
+span {
+    color: #FF9900;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+a {
+    color: #FF9900;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 36px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+#Footer {
+    margin-bottom: 36px;
+}
+
+#Hero {
+    /*Tamanho da minha imagem*/
+    width: 592px;
+    margin: auto;
+}
+
+#Balls {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+.Links{
+
+    width: fit-content;
+
+    margin: 0 auto;
+}
+
+/* Pseudo elemento de seleção de componentes*/
+.Links a:first-child {
+    
+    margin-right: 28px;
+}
+
+.Line {
+    /* Largura da linha*/
+    width: 568px;
+
+    /* Altura da linha*/
+    height: 0px;
+
+    margin: 0 auto 8px;
+    
+    border: 1px solid #ECEFF2;
+}
